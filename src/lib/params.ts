@@ -43,36 +43,23 @@ export const getPlatfromIcon = (platform: Platform): Icons => {
 
 export const HOME: HomePageParams = {
 	title: 'Home',
-	name: 'Name',
-	lastName: 'LASTNAME',
+	name: 'JOÃO (AJ)',
+	lastName: 'MATOS',
 	description:
-		'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!',
+		'Enthusiastic Junior Developer with years of contributions to the Open Source community. Startup co-founder at age 19, team leader, head developer and programming content writer.',
 	links: [
-		{ platform: Platform.GitHub, link: 'https://github.com/' },
+		{ 
+			platform: Platform.GitHub, 
+			link: 'https://github.com/JoaoAJMatos' 
+		},
 		{
 			platform: Platform.Linkedin,
-			link: 'https://www.linkedin.com/'
-		},
-		{
-			platform: Platform.Twitter,
-			link: 'https://twitter.com/'
-		},
-		{
-			platform: Platform.StackOverflow,
-			link: 'https://stackoverflow.com/'
+			link: 'https://www.linkedin.com/in/joaoajmatos'
 		},
 		{
 			platform: Platform.Email,
-			link: 'riadh-adrani@hotmail.fr'
+			link: 'joaoajmatos@proton.me'
 		},
-		{
-			platform: Platform.Youtube,
-			link: 'https://www.youtube.com'
-		},
-		{
-			platform: Platform.Facebook,
-			link: 'https://www.facebook.com'
-		}
 	]
 };
 
@@ -93,7 +80,7 @@ export const SKILLS: SkillsPageParams = {
 
 export const RESUME: ResumePageParams = {
 	title: 'Resumé',
-	item: ''
+	item: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
 };
 
 export const SEARCH: SearchPageParams = {

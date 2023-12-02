@@ -4,36 +4,40 @@ import type { Project } from './types';
 
 const MY_PROJECTS: Array<Project> = [
 	{
-		slug: 'slick-portfolio-angular',
+		slug: 'skynet',
 		color: '#5e95e3',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			"Skynet is an educational Proof-of-Work based Blockchain implementation written from scratch in C++ with minimal third party dependencies. Providing a clean and well structured codebase for students and enthusiastic developers who wish to understand the inner workings of Blockchain at a smaller scale." +
+			"\n\n" +
+			"Skynet is not a fork of any existing Blockchain implementation, it is a clean implementation written from scratch designed to be as simple as possible, but with all the core features of a real-world Blockchain." +
+			"\n\n" +
+			"Skynet Core Organization, which I am the leader of, is the entity behind the development and implementation decisions of Skynet Core.",
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'An educational blockchain implementation written from scratch in C++.',
 		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
 		logo: Assets.Unknown,
-		name: 'Slick Portfolio',
+		name: 'Skynet',
 		period: {
-			from: new Date()
+			from: new Date(2023, 1),
 		},
-		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Website Template'
+		skills: getSkills('cpp', 'ts', 'tailwind'),
+		type: 'Blockchain'
 	},
 	{
-		slug: 'slick-portfolio-svelte',
+		slug: 'stest',
 		color: '#ff3e00',
 		description:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+			"Stest is an AI Powered Universal Unit Testing Generation Tool. It uses a combination of static analysis and machine learning to generate unit tests for your code.",
 		shortDescription:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+			'AI Powered Universal Unit Testing Generation Tool',
 		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
 		logo: Assets.Svelte,
-		name: 'Slick Portfolio',
+		name: 'Stest',
 		period: {
-			from: new Date()
+			from: new Date(2023, 9)
 		},
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
-		type: 'Website Template',
+		skills: getSkills('go', 'ts', 'tailwind', 'sass'),
+		type: 'Developer Utility',
 		screenshots: [
 			{
 				label: 'screen 1',

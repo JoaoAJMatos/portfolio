@@ -4,7 +4,7 @@ import { ContractType, type Experience } from './types';
 
 const MY_EXPERIENCES: Array<Experience> = [
 	{
-		slug: 'open-sourcer',
+		slug: 'open-sourceraa',
 		company: 'Self-employed',
 		description: 'Creating awesome tools for developers.',
 		contract: ContractType.SelfEmployed,
@@ -34,15 +34,15 @@ const MY_EXPERIENCES: Array<Experience> = [
 		shortDescription: ''
 	},
 	{
-		slug: 'software-freelance-junior',
+		slug: 'open-sourcer',
 		company: 'Self-employed',
-		description: 'Creating awesome applications for customers.',
+		description: 'I have been an active member of the open source community for many years. My projects and the countless lines of documentation and articles I have written have helped many developers.',
 		contract: ContractType.Freelance,
 		type: 'Software Development',
 		location: 'Home',
 		period: { from: new Date(2022, 0, 1), to: new Date() },
 		skills: getSkills('css', 'html', 'js'),
-		name: 'Junior Freelancer',
+		name: 'Open Source Developer',
 		color: '#ffffff',
 		links: [],
 		logo: Assets.Unknown,
