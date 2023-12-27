@@ -68,9 +68,11 @@
 			}
 		}
 	});
+
+	let subtitle = "Check out some of the major projects I have been involved in 👷";
 </script>
 
-<SearchPage {title} on:search={onSearch}>
+<SearchPage {title} {subtitle} on:search={onSearch}>
 	<div class="projects-filters">
 		{#each filters as tech}
 			<Chip active={tech.isSelected} classes={'text-0.8em'} on:click={() => onSelected(tech.slug)}

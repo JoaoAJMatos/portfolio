@@ -61,6 +61,15 @@ body {
 		right;
 }
 
+p.big {
+	line-height: 1.6;
+}
+
+div.whoami {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
 :root[data-theme='dark'] {
 	color-scheme: dark;
 
@@ -234,7 +243,7 @@ body {
 	}
 
 	& p {
-		line-height: 1.75rem;
+		line-height: 1.8rem;
 	}
 
 	& ul {

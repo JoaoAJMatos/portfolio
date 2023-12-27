@@ -8,13 +8,15 @@ import {
 	type ExperiencePageParams,
 	type SkillsPageParams,
 	type ResumePageParams,
-	type SearchPageParams
+	type SearchPageParams,
+	type WhoamiPageParams
 } from './types';
 import { Icons } from './utils';
 
 export const TITLE_SUFFIX = 'Slick template with Svelte';
 
 export const NavBar = {
+	whoami: 'About Me',
 	home: 'Home',
 	personal: 'Projects',
 	career: 'Experiences',
@@ -85,4 +87,9 @@ export const RESUME: ResumePageParams = {
 
 export const SEARCH: SearchPageParams = {
 	title: 'Search'
+};
+
+export const WHOAMI: WhoamiPageParams = {
+	title: 'Who am I?',
+	item: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
 };

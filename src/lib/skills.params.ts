@@ -69,7 +69,7 @@ const MY_SKILLS = [
 		color: 'blue',
 		description:
 			'I have used Lua to configure and develop many plugins for my text editor (Neovim). I am comfortable with scripting in Lua.',
-		logo: Assets.Flask,
+		logo: Assets.Lua,
 		name: 'Lua'
 	}),
 ];

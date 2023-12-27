@@ -6,6 +6,7 @@
 
 	export let title = 'Title';
 	export let search = '';
+	export let subtitle = '';
 
 	const dispatch = createEventDispatcher();
 
@@ -39,7 +40,7 @@
 	});
 </script>
 
-<CommonPage {title}>
+<CommonPage {title} {subtitle}>
 	<div class="w-100% row">
 		<Input bind:value={search} placeholder={'Search...'} />
 	</div>

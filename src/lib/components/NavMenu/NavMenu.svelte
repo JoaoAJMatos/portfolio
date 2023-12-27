@@ -17,6 +17,7 @@
 	}
 
 	const items = [
+		{ title: NavBar.whoami, to: '/whoami', icon: 'i-carbon-user'},
 		{ title: NavBar.skills, to: '/skills', icon: 'i-carbon-software-resource-cluster' },
 		{ title: NavBar.personal, to: '/projects', icon: 'i-carbon-cube' },
 		{ title: NavBar.career, to: '/experience', icon: 'i-carbon-development' },

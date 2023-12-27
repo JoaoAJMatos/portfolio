@@ -91,3 +91,7 @@ export type SkillsPageParams = PageWithSearchParams<Skill>;
 export interface ResumePageParams extends PageParams {
 	item: string;
 }
+
+export interface WhoamiPageParams extends PageParams {
+	item: string;
+}

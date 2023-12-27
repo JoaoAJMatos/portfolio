@@ -44,6 +44,7 @@ const Assets = {
 	Fastify: a('fastify.svg', 'fastify-dark.png'),
 	NestJs: a('nest.svg'),
 	Quasar: a('quasar.svg'),
+	Lua: a('lua.png'),
 	SolidJs: a('solid.svg'),
 	Electron: a('electron.png'),
 	Flutter: a('flutter.svg'),
@@ -70,7 +71,10 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	Stest: a('stest.png'),
+	Skynet: a('skynet.png'),
+	ProtoIP: a('protoip.png'),
 };
 
 export default Assets;
